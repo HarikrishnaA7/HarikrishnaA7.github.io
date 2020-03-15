@@ -1,0 +1,8 @@
+const chalk=require('chalk')
+const getNotes=require('./notes.js')
+ const msg =getNotes()
+console.log(chalk.bgGreen("success"))
+// const fs= require('fs')
+// // fs.writeFileSync('notes.txt','hi my name is Harikrishna')
+// fs.appendFileSync('notes.txt',' i added some text to this')
+// console.log(validator.isEmail('hari@gmail.ld'))
