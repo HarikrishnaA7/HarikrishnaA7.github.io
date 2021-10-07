@@ -23,9 +23,34 @@
             <div class="line3"></div>
         </div>
     </nav>
-    <div class="img">
-        <img src="im1.jpg" alt="Smiley face" >
+    <div class="back-img">
+        <img src="C:\wamp64\www\pflio\HarikrishnaA7.github.io\pflo\wall5.jpg" alt="Smiley face" >
     </div>
-    <script src="app.js"></script>
+   <!--  <div class="img">
+        <img src="C:\wamp64\www\pflio\HarikrishnaA7.github.io\pflo\IMG_20200705_183853.jpg" alt="Smiley face" >
+    </div> -->
+    <div class="container">
+      <form id="add-form">
+        <label>
+          Name:
+          <input id="name" type="text" placeholder="Item Name">
+        </label>
+        <label>
+          Price:
+          <input id="price" type="number" step="0.01" placeholder="Item Price">
+        </label>
+        <button id="add" type="submit">Add Item</button>
+      </form>
+
+      <ul id="items">
+        <!-- Items here -->
+      </ul>
+
+      <div id="total">
+        <!-- Total here -->
+      </div>
+    </div>
+
+    <script src="js.js"></script>
 </body>
 </html>

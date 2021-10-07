@@ -8,7 +8,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5d4954;
+    background-color: #fb18af;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -49,7 +49,16 @@ nav{
 .img{
     background-size: cover;
 }
-
+.img img{
+    position: relative;
+    width: 25%;
+    margin-top: -55%;
+    float: right;
+}
+.back-img img{
+    width: 100%;
+    height: 500px;
+}
 @media screen and (max-width:1024px){
     .nav-links{
       
