@@ -10,7 +10,7 @@ export const homeObjOne = {
     'Embrace digital learning with Global Online University. We offer & guide you for the exams like KSET , GATE , IIT JAM , UGC NET , AP SET and for other government exams to accomplish your goals.',
   buttonLabel: 'Join Now',
   imgStart: '',
-  img: require('../../images/gou mockup final.png'),
+  img: require('../../images/hero pic.png'),
   alt: 'Credit Card',
   start: ''
 };

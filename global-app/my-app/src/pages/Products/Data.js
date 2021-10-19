@@ -3,14 +3,14 @@ export const homeObjOne = {
   lightText: false,
   lightTopLine: false,
   lightTextDesc: false,
-  topLine: 'View Our Products',
-  headline: 'Shop through our catalog of products',
+  topLine: 'What Our Students Say',
+  headline: 'Our Successful Students Feedback',
   description:
-    'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
-  buttonLabel: 'Shop Now',
+    'Gou has redesigned its platform making e-learning an enjoyable experience through up to date and fully functional online tools. The modern search facility allows students faster answers to questions and mock tests make for an engaging hands-on experience.',
+  // buttonLabel: 'Shop Now',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
-  alt: 'Credit Card'
+  img: require('../../images/feedback pic@2x@2x.png'),
+  alt: 'Feedback'
 };
 
 export const homeObjTwo = {
@@ -18,13 +18,21 @@ export const homeObjTwo = {
   lightText: true,
   lightTopLine: true,
   lightTextDesc: true,
-  topLine: '100% Secure',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  topLine: 'What Sets Us Apart',
+  headline: 'Committed To Excellence In Education',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
+    'Interactive learning portal',
+  description2:
+   'Important question with solutions',
+  description3:
+   'Mocktests',
+  description4:
+   'Flexible schedules and live sessions',
+  description5:
+   'End - End course completion',
+  // buttonLabel: 'Learn More',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/pic.png'),
   alt: 'Vault'
 };
 

@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 80px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+  padding: 1% 0;
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#fff')};
 `;
 
 export const InfoRow = styled.div`
@@ -39,18 +39,18 @@ export const TextWrapper = styled.div`
     padding-bottom: 65px;
   }
 `;
+//  max-width: 555px;
 
 export const ImgWrapper = styled.div`
-  max-width: 555px;
   display: flex;
   justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+  color: ${({ lightTopLine }) => (lightTopLine ? '#D8811C' : '#D8811C')};
   font-size: 18px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
 `;
@@ -59,7 +59,6 @@ export const Img = styled.img`
   padding-right: 0;
   border: 0;
   max-width: 100%;
-  vertical-align: middle;
   display: inline-block;
   max-height: 500px;
 `;
@@ -69,13 +68,13 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+  color: ${({ lightText }) => (lightText ? '#000' : '#1c2237')};
 `;
 
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#000' : '#1c2237')};
 `;

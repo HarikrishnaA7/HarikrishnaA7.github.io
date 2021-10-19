@@ -97,7 +97,8 @@ export const PricingCardLength = styled.p`
 `;
 
 export const PricingCardFeatures = styled.ul`
-  margin: 16px 0 32px;
+  margin: 8px 0 3px;
+  line-height: 6px;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -107,4 +108,5 @@ export const PricingCardFeatures = styled.ul`
 
 export const PricingCardFeature = styled.li`
   margin-bottom: 10px;
+  font-size:16px;
 `;
