@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const WhychooseusSection = styled.div`
-  padding: 70px 0 10px;
+export const CoursesSection = styled.div`
+  padding: 100px 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: #fff;
 `;
 
-export const WhychooseusWrapper = styled.div`
+export const CoursesWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,12 +23,17 @@ export const WhychooseusWrapper = styled.div`
   }
 `;
 
-export const WhychooseusHeading = styled.h1`
+export const CoursesHeading = styled.h3`
   color: black;
-  font-size: 36px;
+  font-size: 30px;
+  font-weight:300;
+  color:#F7931E;
 `;
-
-export const WhychooseusContainer = styled.div`
+export const CoursesHeading2 = styled.h1`
+  color: black;
+  font-size: 45px;
+`;
+export const CoursesContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +47,7 @@ export const WhychooseusContainer = styled.div`
   }
 `;
 
-export const WhychooseusCard = styled(Link)`
+export const CoursesCard = styled(Link)`
   background: #ffffff;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 250px;
@@ -72,52 +77,43 @@ export const WhychooseusCard = styled(Link)`
     }
   }
 `;
-  // max-width: 100%;
 
-export const Img = styled.img`
-  padding-right: 0;
-  border: 0;
-  max-width: 75%;
-
-  display: inline-block;
-`;
-export const WhychooseusCardInfo = styled.div`
+export const CoursesCardInfo = styled.div`
   display: flex;
   flex-direction: column;
   height: 200px;
   padding: 14px;
   align-items: center;
-  color: #F47521;
+  color: #000000;
 `;
 
-export const WhychooseusCardIcon = styled.div`
+export const CoursesCardIcon = styled.div`
   margin: 24px 0;
 `;
 
-export const WhychooseusCardPlan = styled.h3`
-  margin-bottom: 4px;
+export const CoursesCardPlan = styled.h3`
+  margin-bottom: 5px;
   font-size: 24px;
 `;
 
-export const WhychooseusCardCost = styled.h4`
+export const CoursesCardCost = styled.h4`
   font-size: 40px;
 `;
 
-export const WhychooseusCardLength = styled.p`
+export const CoursesCardLength = styled.p`
   font-size: 14px;
   margin-bottom: 24px;
 `;
 
-export const WhychooseusCardFeatures = styled.ul`
-  margin: 8px 0 0px;
+export const CoursesCardFeatures = styled.ul`
+  margin: 16px 0 32px;
   list-style: none;
   display: flex;
-  font-size: 12px;
   flex-direction: column;
   align-items: center;
   color: #a9b3c1;
 `;
 
-export const WhychooseusCardFeature = styled.li`
+export const CoursesCardFeature = styled.li`
   margin-bottom: 10px;
 `;

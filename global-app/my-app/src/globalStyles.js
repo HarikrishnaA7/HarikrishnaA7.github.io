@@ -26,13 +26,14 @@ export const Container = styled.div`
 
 export const Button = styled.button`
   border-radius: 4px;
-  background: ${({ primary }) => (primary ? '#4B59F7' : '#0467FB')};
+  background: ${({ primary }) => (primary ? '#FFF' : '#0467FB')};
   white-space: nowrap;
-  padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
-  color: #fff;
+  padding: ${({ big }) => (big ? '12px 17px' : '10px 20px')};
+  color: #F7931E;
   font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
   outline: none;
-  border: none;
+  border: 3px solid #F7931E;
+  border-radius: 10px;
   cursor: pointer;
 
   &:hover {

@@ -1,8 +1,8 @@
 import React from 'react';
 // import { Button } from '../../globalStyles';
 // import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
+// import { GiCrystalBars } from 'react-icons/gi';
+// import { GiCutDiamond, GiRock } from 'react-icons/gi';
 // import { GiFloatingCrystal } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import {
@@ -17,7 +17,8 @@ import {
 //   WhychooseusCardCost,
 //   WhychooseusCardLength,
   WhychooseusCardFeatures,
-  WhychooseusCardFeature
+  WhychooseusCardFeature,
+  Img
 } from './Whychooseus.elements';
 
 function Whychooseus() {
@@ -25,12 +26,13 @@ function Whychooseus() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <WhychooseusSection>
         <WhychooseusWrapper>
-          <WhychooseusHeading>Why Choose Us</WhychooseusHeading>
+          <WhychooseusHeading>Why Choose Us ?</WhychooseusHeading>
           <WhychooseusContainer>
             <WhychooseusCard to='/sign-up'>
               <WhychooseusCardInfo>
                 <WhychooseusCardIcon>
-                  <GiRock />
+                  {/* <GiRock /> */}
+                  <Img src={require('../../images/icon1.png')} alt={'image'} />
                 </WhychooseusCardIcon>
                 <WhychooseusCardPlan>Self-Paced Learning</WhychooseusCardPlan>
                 <WhychooseusCardFeatures>
@@ -42,7 +44,8 @@ function Whychooseus() {
             <WhychooseusCard to='/sign-up'>
               <WhychooseusCardInfo>
                 <WhychooseusCardIcon>
-                  <GiCrystalBars />
+                  {/* <GiCrystalBars /> */}
+                  <Img src={require('../../images/icon 2.png')} alt={'alt'} />
                 </WhychooseusCardIcon>
                 <WhychooseusCardPlan>Expert Faculty</WhychooseusCardPlan>
                 <WhychooseusCardFeatures>
@@ -55,9 +58,10 @@ function Whychooseus() {
             <WhychooseusCard to='/sign-up'>
               <WhychooseusCardInfo>
                 <WhychooseusCardIcon>
-                  <GiCutDiamond />
+                  {/* <GiCutDiamond /> */}
+                  <Img src={require('../../images/icon 3-1cr.png')} alt={'alt'} />
                 </WhychooseusCardIcon>
-                <WhychooseusCardPlan>Mocktests</WhychooseusCardPlan>
+                <WhychooseusCardPlan>Mock tests</WhychooseusCardPlan>
                 <WhychooseusCardFeatures>
                   <WhychooseusCardFeature>Analyse yourself and see where</WhychooseusCardFeature>
                   <WhychooseusCardFeature> you stand, how much you can</WhychooseusCardFeature>
@@ -68,7 +72,8 @@ function Whychooseus() {
             <WhychooseusCard to='/sign-up'>
               <WhychooseusCardInfo>
                 <WhychooseusCardIcon>
-                  <GiCutDiamond />
+                  {/* <GiCutDiamond /> */}
+                  <Img src={require('../../images/icon 3.png')} alt={'alt'} />
                 </WhychooseusCardIcon>
                 <WhychooseusCardPlan>LIVE & Interactive</WhychooseusCardPlan>
                 <WhychooseusCardFeatures>
