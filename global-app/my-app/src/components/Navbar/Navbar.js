@@ -13,7 +13,9 @@ import {
   NavItem,
   NavItemBtn,
   NavLinks,
-  NavBtnLink
+  NavBtnLink,
+  Img,
+  Brand
 } from './Navbar.elements';
 
 function Navbar() {
@@ -43,8 +45,11 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
-              <NavIcon />
+            <Img src={require('../../images/globallogo.png')} alt={'alt'} />
+              {/* <NavIcon /> */}
+              <Brand>
               Globl Online University
+              </Brand>
               <TagLine>
               Learn at base
             </TagLine>
@@ -61,12 +66,12 @@ function Navbar() {
               </NavItem>
               <NavItem>
                 <NavLinks to='/services' onClick={closeMobileMenu}>
-                  Services
+                  Pricing
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to='/products' onClick={closeMobileMenu}>
-                  Products
+                  Feedbacks
                 </NavLinks>
               </NavItem>
               <NavItemBtn>

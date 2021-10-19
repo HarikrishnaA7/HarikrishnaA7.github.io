@@ -3,6 +3,14 @@ import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
+
+export const Img = styled.img`
+  padding-right: 0;
+  border: 0;
+  max-width: 36%;
+
+  display: inline-block;
+`;
 export const Nav = styled.nav`
   background: #ffffff;
   height: 112px;
@@ -37,11 +45,23 @@ export const NavIcon = styled(FaMagento)`
   margin-right: 0.5rem;
 `;
 export const TagLine = styled.div`
-  margin-left: 2.75rem;
-  font-size: 1.00rem;
-  margin-top: 5rem;
-  color: orange;
-  position: absolute;
+    margin-left: 4.1rem;
+    font-size: 1.00rem;
+    margin-top: 2rem;
+    color: orange;
+    position: absolute;
+
+`;
+export const Brand = styled.div`
+    margin-left: 4rem;
+    font-size: 1.75rem;
+    margin-top: -1.3rem;
+    color: orange;
+    position: absolute;
+    @media screen and (max-width: 960px) {
+      font-size: 1.3rem;
+
+    }
 
 `;
 
@@ -121,7 +141,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: orange;
       transition: all 0.3s ease;
     }
   }
