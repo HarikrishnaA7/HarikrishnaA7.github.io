@@ -7,6 +7,11 @@ export const WhychooseusSection = styled.div`
   flex-direction: column;
   justify-content: center;
   background: #fff;
+  @media screen and (max-width: 960px) {
+    padding: 70px 0 43px;
+  }
+
+
 `;
 
 export const WhychooseusWrapper = styled.div`
@@ -26,6 +31,11 @@ export const WhychooseusWrapper = styled.div`
 export const WhychooseusHeading = styled.h1`
   color: black;
   font-size: 36px;
+  @media screen and (max-width: 960px) {
+    padding-bottom: 6%;
+    font-size: 32px;
+  }
+
 `;
 
 export const WhychooseusContainer = styled.div`

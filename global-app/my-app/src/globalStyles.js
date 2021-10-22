@@ -44,7 +44,7 @@ export const Button = styled.button`
   }
 
   @media screen and (max-width: 960px) {
-    width: 100%;
+    width: 53%;
   }
 `;
 
