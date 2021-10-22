@@ -33,7 +33,7 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          {/* Join our exclusive membership to receive the latest news and trends */}
         </FooterSubHeading>
         <FooterSubText>You can unsubscribe at any time.</FooterSubText>
         <Form>
@@ -79,10 +79,10 @@ function Footer() {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
+            {/* <SocialIcon /> */}
+            {/* ULTRA */}
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>Global online university © 2021</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
